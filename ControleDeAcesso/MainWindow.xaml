@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:ControleDeAcesso"
         mc:Ignorable="d"
         Title="MainWindow" Height="660" Width="480">
-    <Grid>
+    <Grid Name="LoginGrid">
         <TextBlock
             VerticalAlignment="Top"
             HorizontalAlignment="Center"
@@ -36,7 +36,7 @@
             Width="240"
             Content="Acessar"
             FontSize="18"
-            Cursor="Hand" Margin="120,540,120,0" Click="Button_Click" RenderTransformOrigin="0.537,-1.193" VerticalAlignment="Top"
+            Cursor="Hand" Margin="120,540,120,0" Click="CheckUser" RenderTransformOrigin="0.537,-1.193" VerticalAlignment="Top"
             >
         </Button>
 
@@ -45,7 +45,8 @@
                  TextWrapping="Wrap"
                  HorizontalAlignment="Center"
                  AcceptsReturn="True"
-                 Height="60" RenderTransformOrigin="0.5,-1.143" TextChanged="TextBox_TextChanged">
+                 Height="60" 
+                 Text="{Binding Username}">
 
         </TextBox>
 
@@ -54,7 +55,8 @@
                  TextWrapping="Wrap"
                  HorizontalAlignment="Center"
                  AcceptsReturn="True"
-                 Height="60">
+                 Height="60"
+                 Text="{Binding Password}">
 
         </TextBox>
 
