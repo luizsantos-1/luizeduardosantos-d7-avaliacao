@@ -5,8 +5,56 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ControleDeAcesso"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="660" Width="480">
     <Grid>
+        <TextBlock
+            VerticalAlignment="Top"
+            HorizontalAlignment="Center"
+            FontSize="20
+            "
+            FontWeight="Bold" Margin="0,24,0,0"
+            >Autenticação de usuário</TextBlock>
+
+        <TextBlock
+            VerticalAlignment="Top"
+            HorizontalAlignment="Left"
+            FontSize="16"
+            FontWeight="Bold" Margin="62,176,0,0"
+            >Usuário</TextBlock>
+
+        <TextBlock
+            VerticalAlignment="Center"
+            HorizontalAlignment="Left"
+            FontSize="16"
+            FontWeight="Bold" Margin="62,0,0,0"
+            >Senha</TextBlock>
+
+        <Button
+            Height="50"
+            Width="200"
+            Content="Acessar"
+            FontSize="18"
+            Cursor="Hand" Margin="140,545,140,49"
+            >
+        </Button>
+
+        <TextBox Margin="62,-100,0,120" 
+                 Width="350"
+                 TextWrapping="Wrap"
+                 HorizontalAlignment="Left"
+                 AcceptsReturn="True"
+                 MaxHeight="30">
+
+        </TextBox>
+
+        <TextBox Margin="62,41,0,-21" 
+                 Width="350"
+                 TextWrapping="Wrap"
+                 HorizontalAlignment="Left"
+                 AcceptsReturn="True"
+                 MaxHeight="30">
+
+        </TextBox>
 
     </Grid>
 </Window>
