@@ -10,49 +10,51 @@
         <TextBlock
             VerticalAlignment="Top"
             HorizontalAlignment="Center"
-            FontSize="20
-            "
-            FontWeight="Bold" Margin="0,24,0,0"
+            FontSize="24"
+            FontWeight="Bold" Margin="0,62,0,0"
             >Autenticação de usuário</TextBlock>
+
+        <TextBlock
+            HorizontalAlignment="Left"
+            FontSize="16"
+            FontWeight="Bold" Margin="60,128,0,495"
+            Height="19"
+            Width="48"
+            >Usuário</TextBlock>
 
         <TextBlock
             VerticalAlignment="Top"
             HorizontalAlignment="Left"
             FontSize="16"
-            FontWeight="Bold" Margin="62,176,0,0"
-            >Usuário</TextBlock>
-
-        <TextBlock
-            VerticalAlignment="Center"
-            HorizontalAlignment="Left"
-            FontSize="16"
-            FontWeight="Bold" Margin="62,0,0,0"
+            FontWeight="Bold" Margin="60,325,0,0"
+            Height="19"
+            Width="48"
             >Senha</TextBlock>
 
         <Button
-            Height="50"
-            Width="200"
+            Height="60"
+            Width="240"
             Content="Acessar"
             FontSize="18"
-            Cursor="Hand" Margin="140,545,140,49"
+            Cursor="Hand" Margin="120,540,120,0" Click="Button_Click" RenderTransformOrigin="0.537,-1.193" VerticalAlignment="Top"
             >
         </Button>
 
-        <TextBox Margin="62,-100,0,120" 
-                 Width="350"
+        <TextBox Margin="0,180,0,405" 
+                 Width="360"
                  TextWrapping="Wrap"
-                 HorizontalAlignment="Left"
+                 HorizontalAlignment="Center"
                  AcceptsReturn="True"
-                 MaxHeight="30">
+                 Height="60" RenderTransformOrigin="0.5,-1.143" TextChanged="TextBox_TextChanged">
 
         </TextBox>
 
-        <TextBox Margin="62,41,0,-21" 
-                 Width="350"
+        <TextBox Margin="0,360,0,207" 
+                 Width="360"
                  TextWrapping="Wrap"
-                 HorizontalAlignment="Left"
+                 HorizontalAlignment="Center"
                  AcceptsReturn="True"
-                 MaxHeight="30">
+                 Height="60">
 
         </TextBox>
 
