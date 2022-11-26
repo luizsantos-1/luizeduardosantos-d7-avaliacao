@@ -46,6 +46,7 @@
                  HorizontalAlignment="Center"
                  AcceptsReturn="True"
                  Height="60" 
+                 FontSize="16"
                  Text="{Binding Username}">
 
         </TextBox>
@@ -56,6 +57,7 @@
                  HorizontalAlignment="Center"
                  AcceptsReturn="True"
                  Height="60"
+                 FontSize="16"
                  Text="{Binding Password}">
 
         </TextBox>

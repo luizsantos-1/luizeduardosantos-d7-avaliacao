@@ -31,9 +31,8 @@ namespace ControleDeAcesso
             InitializeComponent();
   
             LoginGrid.DataContext = loginAttempt;
-
         }
- 
+
         private void CheckUser(object sender, RoutedEventArgs e)
         {
             var UserList = context.Users.ToList();
@@ -47,7 +46,6 @@ namespace ControleDeAcesso
 
             }
             MessageBox.Show("Credenciais invalidas");
-
         }
     }
 }
